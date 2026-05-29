@@ -12,6 +12,12 @@
 
 # testing
 /coverage
+/test-results
+/playwright-report
+
+# evidence videos — uploaded to GitHub via drag-drop, not committed
+/evidence/**/*.webm
+/evidence/**/*.mp4
 
 # next.js
 /.next/

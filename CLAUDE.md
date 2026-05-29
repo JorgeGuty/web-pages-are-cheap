@@ -49,4 +49,9 @@ src/
 
 ## Dev-team evidence storage
 
-Verifier video artifacts are committed to `evidence/` at the repo root. Each slice gets its own subdirectory: `evidence/slice-N/`.
+Videos are **not committed**. `/evidence/**/*.webm` is gitignored.
+
+Workflow:
+1. Verifier records video locally to `evidence/slice-N/video.webm`
+2. Team Lead uploads the video to GitHub via drag-drop in the PR description editor
+3. GitHub returns a `user-attachments.githubusercontent.com` URL — embed it in the PR body as `<video src="..." controls></video>`
