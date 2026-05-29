@@ -10,7 +10,7 @@ A minimal Next.js app that demonstrates web pages are cheap to build. Single Hel
 npm run dev       # start dev server (http://localhost:3000)
 npm run build     # production build
 npm run lint      # ESLint
-npm run typecheck # tsc --noEmit
+npx tsc --noEmit  # type check (no typecheck script in package.json)
 ```
 
 ## Tech stack
